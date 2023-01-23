@@ -1,3 +1,5 @@
+package dp.creational.FactoryPattern;
+
 abstract class Plan {
     protected double rate;
     abstract void getRate();

@@ -1,2 +1,7 @@
-package dp.creational.FactoryPattern;public class DomesticPlan {
+package dp.creational.FactoryPattern;
+
+public class DomesticPlan extends Plan{
+    public void getRate(){
+        rate=3.50;
+    }
 }

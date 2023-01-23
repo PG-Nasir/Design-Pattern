@@ -1,2 +1,7 @@
-package dp.creational.FactoryPattern;public class CommercialPlan {
+package dp.creational.FactoryPattern;
+
+public class CommercialPlan extends Plan{
+    public void getRate(){
+        rate=7.50;
+    }
 }
